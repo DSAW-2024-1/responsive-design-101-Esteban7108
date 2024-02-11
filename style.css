@@ -1,0 +1,290 @@
+table tr td:first-child {
+  border-right: 1px solid black; 
+}
+table {
+  width: 90%; 
+  margin-bottom: 15px;
+}
+table td {
+  padding: 8px; 
+}
+table tr:not(:last-child) td {
+  border-bottom: 1px solid black; 
+}
+#subt
+{
+color: rgb(156, 67, 67 );
+}
+table {
+  border-collapse: collapse; 
+  width: 90%; 
+}
+img {
+  max-width: 100%; 
+  height: auto;
+  height: 40vw;
+
+}
+#Contorno img {
+  display: block; 
+  border-radius: 10%;
+  padding-top: 5%;
+}
+.prep{
+  color:  rgb(150, 105, 147);
+}
+li{
+  color: rgb(113, 68, 68 );
+  margin-right: 2%;
+  margin-bottom: 1em;
+}
+table td {
+  color: rgb(113, 68, 68 );
+}
+table th{
+  color: rgb(156, 67, 67 );
+}
+.textp{
+  color: rgb(113, 68, 68 );
+}
+.attribution{
+  font-size: 2.5vw;
+}
+@media screen and (max-width: 480px) {
+  body.Fondo{
+    background-color: hsl(30, 54%, 90%);
+    padding-bottom: 50px;
+  font-family: [Young Serif];
+  }
+  #Contorno{
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    width: 80%; 
+
+  }
+  #coontent{
+    padding-left: 5%;
+    padding-right: 7%;
+    border-radius: 10px;
+
+  }
+
+  #prepa{
+    padding-left: 10px;
+    margin-right: 5%;
+    background-color: hsl(313, 30%, 88%);
+    padding-top: 3px;
+    border-radius: 10px;
+  }
+   
+
+  h2.subt{
+    color: rgb(156, 67, 67 );
+    border-top: 1px solid black;
+    padding-top: 22px;
+  }
+
+  
+  table td, table th {
+    border: none; 
+    padding: 8px; 
+    text-align: left; 
+    
+  }
+ 
+
+  h1{
+    font-size: 10vw; 
+  }
+  h2{
+    font-size: 6vw;
+  }
+
+}
+@media screen and (max-width: 864px){
+    body.Fondo{
+      background-color: hsl(30, 54%, 90%);
+      padding-bottom: 50px;
+    font-family: [Young Serif];
+    font-size: 3vw;
+    }
+    #Contorno{
+      margin-left: 10%;
+      margin-right: 20%;
+      margin-top: 2rem;
+      padding-top: 20px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      padding-bottom: 30px;
+      width: 80%; 
+  
+    }
+    #coontent{
+      padding-left: 5%;
+      padding-right: 7%;
+      border-radius: 10px;
+  
+    }
+    p{
+      animation-duration: 3s;
+      animation-name: li-slidein;
+    }
+  li{
+    animation-duration: 3s;
+  animation-name: li-slidein;
+  }
+  img{
+    animation-duration: 3s;
+    animation-name: li-slidein;
+  }
+  
+
+@keyframes li-slidein {
+  from {
+      margin-left: -100%; 
+  }
+  to {
+      margin-left: 0%;
+  }
+}
+
+  
+    #prepa{
+      padding-left: 10px;
+      margin-right: 5%;
+      background-color: hsl(313, 30%, 88%);
+      padding-top: 3px;
+      border-radius: 10px;
+    }
+     
+  
+    h2.subt{
+      color: rgb(156, 67, 67 );
+      border-top: 1px solid black;
+      padding-top: 22px;
+    }
+  
+    
+    table td, table th {
+      border: none; 
+      padding: 8px; 
+      text-align: left; 
+      
+    }
+   
+  
+    h1{
+      font-size: 9vw; 
+    }
+    h2{
+      font-size: 8vw;
+    }
+  
+}
+@media screen and (min-width: 864px){
+  body.Fondo{
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+font-family: [Young Serif];
+}
+
+#Contorno{
+    margin-left: 475px;
+    margin-right: 475px;
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+h1{
+  font-size: 3rem;
+}
+#coontent{
+  padding-left: 20px;
+
+  padding-right: 20px;
+  border-radius: 10px;
+}
+#prepa{
+    padding-left: 15px;
+    margin-right: 15px;
+    background-color: hsl(313, 30%, 88%);
+    padding-top: 3px;
+    border-radius: 10px;
+}
+
+
+li {
+  color: rgb(113, 68, 68);
+  margin-right: 15px;
+  margin-bottom: 13px;
+  padding-left: 20px;
+  animation-duration: 3s;
+  animation-name: li-slidein;
+
+}
+table{
+  animation-duration: 3s;
+  animation-name: li-slidein;
+}
+p {
+  animation-duration: 3s;
+  animation-name: li-slidein;
+}
+
+@keyframes li-slidein {
+  from {
+      margin-left: -100%; 
+  }
+  to {
+      margin-left: 0%;
+  }
+}
+
+
+#Contorno img {
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+
+
+   
+  #Contorno {
+    width: 50%; 
+    margin: 0 auto; 
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto;
+    animation-duration: 3s;
+  animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+  }
+  
+  
+
+
