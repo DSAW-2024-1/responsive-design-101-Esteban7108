@@ -223,6 +223,7 @@ h1{
 
 li {
   color: rgb(113, 68, 68);
+  font-size: 1.1rem;
   margin-right: 15px;
   margin-bottom: 13px;
   padding-left: 20px;
@@ -280,7 +281,9 @@ p {
       width: 100%;
     }
   }
-
+  .attribution{
+    font-size: 1.4vw;
+  }
 
 
   }
