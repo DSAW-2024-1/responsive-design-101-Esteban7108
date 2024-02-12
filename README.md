@@ -27,6 +27,15 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 ## Link página:
    https://dsaw-2024-1.github.io/responsive-design-101-Esteban7108/
 
+## Página en teléfono
+  <img src="telefono.png" alt="Mi imagen de omelette" height="300px" width="170px">
+
+## Página en Tablet
+  <img src="Tablet.png" alt="Mi imagen de omelette" >
+
+## Página en Computador
+  <img src="Computador.png" alt="Mi imagen de omelette" >
+
 ## Evaluación
 | Criterio                                          | Puntos |
 | -------------------------------------------------- | ------ |

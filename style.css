@@ -47,65 +47,7 @@ table th{
 .textp{
   color: rgb(113, 68, 68 );
 }
-.attribution{
-  font-size: 2.5vw;
-}
-@media screen and (max-width: 480px) {
-  body.Fondo{
-    background-color: hsl(30, 54%, 90%);
-    padding-bottom: 50px;
-  font-family: [Young Serif];
-  }
-  #Contorno{
-    margin-left: 10%;
-    margin-right: 20%;
-    margin-top: 2rem;
-    padding-top: 20px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    padding-bottom: 30px;
-    width: 80%; 
 
-  }
-  #coontent{
-    padding-left: 5%;
-    padding-right: 7%;
-    border-radius: 10px;
-
-  }
-
-  #prepa{
-    padding-left: 10px;
-    margin-right: 5%;
-    background-color: hsl(313, 30%, 88%);
-    padding-top: 3px;
-    border-radius: 10px;
-  }
-   
-
-  h2.subt{
-    color: rgb(156, 67, 67 );
-    border-top: 1px solid black;
-    padding-top: 22px;
-  }
-
-  
-  table td, table th {
-    border: none; 
-    padding: 8px; 
-    text-align: left; 
-    
-  }
- 
-
-  h1{
-    font-size: 10vw; 
-  }
-  h2{
-    font-size: 6vw;
-  }
-
-}
 @media screen and (max-width: 864px){
     body.Fondo{
       background-color: hsl(30, 54%, 90%);
@@ -286,8 +228,56 @@ p {
   }
 
 
+    }
+@media screen and (max-width: 480px) {
+  body.Fondo{
+  background-color: hsl(30, 54%, 90%);
+  padding-bottom: 50px;
+  font-family: [Young Serif];
   }
-  
+  #Contorno{
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-top: 2rem;
+  padding-top: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding-bottom: 30px;
+  width: 80%; 
+  }
+  #coontent{
+  padding-left: 5%;
+  padding-right: 7%;
+  border-radius: 10px;
+  }
+  #prepa{
+  padding-left: 10px;
+  margin-right: 5%;
+  background-color: hsl(313, 30%, 88%);
+  padding-top: 3px;
+  border-radius: 10px;
+  }
+  h2.subt{
+  color: rgb(156, 67, 67 );
+  border-top: 1px solid black;
+  padding-top: 22px;
+  }
+  table td, table th {
+  border: none; 
+  padding: 8px; 
+        text-align: left; 
+        
+      }
+     
+    
+      h1{
+        font-size: 10vw; 
+      }
+      h2{
+        font-size: 6vw;
+      }
+    
+    }
   
 
 
